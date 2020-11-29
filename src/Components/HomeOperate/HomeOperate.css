@@ -1,0 +1,320 @@
+/*
+ * HomeOperate css File
+*/
+
+.HomeOperate {
+    /* propertys here */
+    font-family: "Spartan", sans-serif;
+    height: 100vh;
+   
+}
+.HomeOperate .operand {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: inherit;
+}
+
+.HomeOperate .operand .operand-content {
+    padding: 0px 15px;
+}
+.operand-content .content-title {
+    padding-left: 20px;
+    line-height: 1.6em;
+}
+
+.operand-content .content-title p {
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    color: #333333;
+    margin-top: 0px;
+    /* margin-bottom: 0px; */
+}
+
+.operand-content .content-title h2 {
+    margin-top: 0px;
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    line-height: 60px;
+    font-style: normal;
+}
+
+.operand-content .content-text {
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.operand-content .content-text h2 {
+    margin-top: 0px;
+    color: #3b74fa;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.operand-content .content-text ul {
+    /* margin-top: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    color: #000000;
+}
+.operand-content .content-text ul li {
+    padding-bottom: 16px;
+}
+.operand-content .apps {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    color:#3b74fa;
+    text-transform: uppercase;
+}
+ .item-1, 
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6  {
+    position: absolute; 
+    width: 450px;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation:slide-animation 20s infinite */
+}
+
+.item-1 {
+    animation-name: anim-1;
+}
+
+.item-2 {
+    animation-name: anim-2;
+}
+
+.item-3 {
+    animation-name: anim-3;
+}
+/* .item-4 {
+    animation-name: anim-4;
+}
+
+.item-5 {
+    animation-name: anim-5;
+}
+
+.item-6 {
+    animation-name: anim-6;
+} */
+
+/* @keyframes anim-1 {
+    50%,
+    55.3% {
+        left: -50%;
+        opacity: 0;
+    }
+    55.3%,
+    60% {
+        left: 65%;
+        opacity: 1;
+    }
+    60.33%,
+    100% {
+        left: 60%;
+        opacity: 0;
+    }
+}
+
+@keyframes anim-2 {
+    50%,
+    60.33% {
+        left: -100%;
+        opacity: 0;
+    }
+    63.63%,
+    65.29% {
+        left: 25%;
+        opacity: 1;
+    }
+    68.66%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+} 
+
+@keyframes anim-3 {
+    50%,
+    68.66% {
+        left: -100%;
+        opacity: 0;
+    }
+    70.96%,
+    72.62% {
+        left: 25%;
+        opacity: 1;
+    }
+    75.55%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}*/
+
+@keyframes anim-1 {
+    0%,
+    8.3% {
+        left: -100%;
+        opacity: 0;
+    }
+    8.3%,
+    25% {
+        left: 25%;
+        opacity: 1;
+    }
+    33.33%,
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes anim-2 {
+    0%,
+    33.33% {
+        left: -100%;
+        opacity: 0;
+    }
+    41.63%,
+    58.29% {
+        left: 25%;
+        opacity: 1;
+    }
+    66.66%,
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes anim-3 {
+    0%,
+    66.66% {
+        left: -100%;
+        opacity: 0;
+    }
+    74.96%,
+    91.62% {
+        left: 25%;
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+} 
+
+/* #slider, ul
+{
+	height: 200px;
+}
+
+#slider
+{
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	margin-top: 50px;
+	position: relative;
+	width: 600px;
+}
+
+#slider li
+{
+	float: left;
+	position: relative;
+	width: 600px;
+	display: inline-block;
+	height: 200px;
+}
+
+#slider ul
+{
+	list-style: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 9000px;
+	transition: left .2s linear;
+	-moz-transition: left .2s linear;
+	-o-transition: left .2s linear;
+	-webkit-transition: left .2s linear;
+	margin-left: -25px;
+  font-family: open sans;
+  color: #666;
+}
+
+
+
+.slider-container
+{
+  color:#000;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+  min-height: 180px;
+  text-align:center;
+  
+}
+
+.slider-container h2
+{
+ 	color: #fff;
+}
+
+.slider-container  p
+{
+	margin: 10px 25px;
+	font-weight: semi-bold;
+	line-height: 150%;
+} */
+
+/*** target hooks ****/
+
+/* @keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-600px; opacity:1;}
+	45% {left:-600px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1200px; opacity:1;}
+	70% {left:-1200px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-1800px; opacity:1;}
+	95% {opacity:1;}
+	98% {left:-1800px; opacity:0;} 
+	100% {left:0px; opacity:0;}
+} */
+
+/* #slider ul
+{
+
+	-webkit-animation: slide-animation 20s infinite;
+}
+
+#slider ul:hover
+{
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+} */
+
+@media (max-width:769px) {
+    .image{
+        height: 410px;
+        width: 300px;
+    }
+}

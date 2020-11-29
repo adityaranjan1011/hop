@@ -1,0 +1,59 @@
+/*
+ * HomeBlog css File
+*/
+
+.HomeBlog {
+    /* propertys here */
+    padding: 10px 40px 10px 60px ;
+}
+.HomeBlog h2{
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.HomeBlog .carousel .item{
+    width: 260px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.HomeBlog .carousel .item .title{
+    font-size: 18px;
+    margin-top: 12px !important;
+    line-height: 25px !important;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    text-decoration: none;
+    width: 215px !important;
+    height: 75px !important;
+}
+.HomeBlog .carousel .item .title:hover{
+    cursor: pointer;
+    color: #3b74fa;
+}
+.HomeBlog .carousel .item .title-more{
+    font-size: 18px;
+    margin-top: 12px !important;
+    line-height: 25px !important;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    text-decoration: none;
+    width: 195px !important;
+    /* height: 75px !important; */
+}
+.HomeBlog .carousel .item .title-more:hover{
+    cursor: pointer;
+    color: #3b74fa;
+}
+
+.MuiCardContent-root {
+    padding: 0px !important;
+}
+.MuiCardMedia-img {
+    border-radius: 10px;
+}

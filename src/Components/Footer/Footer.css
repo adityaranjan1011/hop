@@ -1,0 +1,77 @@
+/*
+ * Footer css File
+*/
+
+.Footer {
+    /* propertys here */
+    padding: 40px 40px 0 60px;
+}
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-size: 12px;
+    color: #333333;
+}
+.footer-logo {
+    padding: 0px 15px;
+}
+.footer-logo img {
+    width: 91px;
+}
+.footer-logo p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    word-spacing: 5px;
+    line-height: 1.6rem;
+}
+.footer-list .footer-product h2{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.footer-product,.footer-company,.footer-contact,.footer-follow{
+    padding:25px 15px 0px 15px;
+}
+.footer-product p,.footer-company p,.footer-contact p,.footer-follow p{
+    display: flex;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    word-spacing: 5px;
+    line-height: 1.6rem;
+}
+.footer-product a,.footer-company a,.footer-contact a,.footer-follow a{
+    text-decoration: none;
+    color: #929292;
+}
+.footer-company h2,.footer-contact h2,.footer-follow h2{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.footer-list .navList{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    list-style: none;
+    justify-content: space-around;
+}
+.footer-list .navList .list{
+    padding:0px 10px 15px 0px;
+}
+.footer-list .footer-follow label {
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 700;
+}
+@media (max-width:769px){
+    .footer-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

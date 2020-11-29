@@ -1,0 +1,23 @@
+/*
+ * HomeApp css File
+*/
+
+.HomeApp {
+    /* propertys here */
+    padding: 10px 40px 10px 60px;
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+}
+.HomeApp .app-image{
+    padding:0px 15px;
+}
+.HomeApp .app-text{
+    padding: 70px 20px;
+    line-height: 1.6em;
+}
+.HomeApp .app-text h2 {
+   font-size: 32px;
+}
+.HomeApp .app-qr{
+    padding:70px 0px;
+}

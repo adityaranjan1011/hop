@@ -1,0 +1,195 @@
+/*
+ * Home css File
+*/
+
+.Home {
+    background: url(https://moneyhop.co/wp-content/uploads/2020/08/banner-home-money-hop-1-sm.jpg);
+    background-position: right;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content {
+    padding: 100px 40px 100px 0;
+}
+.content-title h1 {
+    font-size: 35px;
+    letter-spacing: -1px !important;
+    word-spacing: 0 !important;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.content-title p{
+    line-height: 1.6em;
+}
+#title:after {
+    font-size: 35px;
+    padding-left: 10px;
+    content: "";
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        content: "One Global Card";
+    }
+    50% {
+        content: "Digital Banking";
+    }
+    100% {
+        content: "Cross Borders Transfer";
+    }
+}
+.home-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 40px 10px 60px;
+}
+.home-content .content .content-title p {
+    margin-top: 35px !important;
+    margin-bottom: 10px !important;
+    color: #333333;
+    font-size: 16px;
+    font-family: "Spartan", sans-serif;
+}
+.home-content .content .content-title .joinus{
+    margin-top: 60px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.home-content .content .content-title .joinus .join-btn {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(to right,#f3ae11,#d61919e6);
+    box-shadow: 0px 4px 24px rgba(0,43,145,.2);
+    padding: 15px 40px
+}
+.home-content .body-image {
+    padding: 0px 15px;
+}
+.home-content .body-image img {
+    /* width: 100% !important; */
+    height: 540px;
+    width: 555px;
+}
+
+.home-whyhop{
+    height: 100vh;
+    background-color: #3b74fa;
+    padding:50px 40px 10px 60px;
+}
+.home-operand{
+    height: 100vh;
+    padding:50px 40px 10px 60px;
+}
+
+.home-app{
+    background: url(https://moneyhop.co/wp-content/uploads/2020/07/rings121.png);
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    height: calc(100vh - 200px);
+}
+.home-blog{
+    background: url(https://moneyhop.co/wp-content/uploads/2020/07/box-on-left.png);
+    background-repeat: no-repeat;
+    /* padding: 40px 0; */
+    margin: 50px 0;
+    height: calc(100vh - 200px);
+}
+.home-support{
+    margin: 60px 0;
+    height: calc(100vh - 450px);
+    padding: 10px 40px 10px 60px;
+}
+.home-calculator{
+    text-align: center;
+    margin: 100px !important;
+    padding-left: 10px 40px 10px 60px;
+}
+.home-calculator .home-savings{
+    padding: 5px;
+}
+.home-calculator .home-savings h2{
+    margin:0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+}
+.home-calculator .home-savings p{
+    color:#333;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.home-calculator .home-savings .email-container{
+    width: 100%;
+}
+.home-calculator .home-savings .email-container .email{
+    background: #f7f7f7;
+    box-shadow: none;
+    color: #787878;
+    transition: all .5s;
+    font-size: 16px;    
+    padding: 12px;
+    border: 0px ;
+    width: 100%;
+   
+}
+.home-calculator .home-savings .email-btn{
+    width: 100%;
+    padding: 30px ;
+}
+
+.home-calculator .home-savings .email-btn button {
+    width: 265px;
+    font-weight: 500;
+    border-radius: 50px;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    background: linear-gradient(to right,#f3ae11,#d61919e6) !important;
+    box-shadow: 0px 4px 24px rgba(0,43,145,.2) !important;
+    padding: 15px 40px !important;
+    border: none;
+
+}
+
+.footer{
+    background: #f3f3f3;
+   
+    /* height: calc(100vh - 250px); */
+}
+
+@media  (max-width:768px) {
+    .Home{
+        height:auto;
+    }
+    .home-whyhop{
+        height: auto;
+    }
+    .home-operand{
+        height: auto;
+    }
+    .home-app{
+        height: auto;
+    }
+    .home-blog{
+        height: auto;
+    }
+    .home-support{
+        height: auto;
+    }
+}

@@ -1,0 +1,15 @@
+/*
+ * Supported css File
+*/
+
+.Supported {
+    padding:10px 40px 10px 60px;
+}
+.Supported h2{
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
